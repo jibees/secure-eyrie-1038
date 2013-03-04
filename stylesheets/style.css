@@ -17,7 +17,7 @@ padding-top: 2px;
 #scit_viewbox {
 margin: 0 10px;
 position: relative;
-/*width: 830px;*/
+width: 770px;
 }
 #scit_viewbox.banner {
     font-size: 12px;
