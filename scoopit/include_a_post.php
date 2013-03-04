@@ -38,14 +38,20 @@ if ($whiteLabel) {
 	 		
 	 		<!-- POST META -->
 	 		<div class="metas">
-   						<span><?php echo date("M d, Y", $post->curationDate / 1000 ) ?></span> - 
-   						<span><?php if(isset($post->url)) { ?>
-		                           	<a target="_blank" href="<?php echo $post->url ?>">
-		                				<?php echo getDomain($post->url); ?>
-		            				</a>
-		              			<?php } ?>
-		              </span>
-            </div>
+        <?php if (isset($post->source)) { ?>
+        <div class="sourceicon">
+          <img width="48px" src="<?php echo $post->source->iconUrl ?>">
+          <div class="clear"></div>
+        </div>
+
+        <span>
+          <a target="_blank" href="<?php echo $post->source->url ?>">
+            <?php echo $post->source->name ?>
+          </a>
+        </span> -
+        <?php } ?>
+        <span><?php echo date("M d, Y", $post->curationDate / 1000 ) ?></span>
+      </div>
             
             <!-- POST TITLE -->
             <div class="title">
@@ -82,17 +88,15 @@ if ($whiteLabel) {
           <tbody>
             <tr>
             <td class="actionsBar-left">
-                <div class="clear">
-                  <?php if(isset($post->source)) ?>
-                  <?php print_r($post->source) ?>
-                    <div class="postSource">
-                      Source : 
-                      <a target="_blank" href="">
-                        zawya.com
-                      </a>
-                    </div>
+              <div class="clear"></div>
+              <?php if(isset($post->url)) ?>
+                <div class="postSource">
+                  Source : 
+                  <a target="_blank" href="<?php echo $post->url ?>">
+                    <?php echo getDomain($post->url); ?>
+                  </a>
                 </div>
-                <?php ?>
+              <?php ?>
             </td>
             <td class="actionsBar-right">
               
