@@ -88,6 +88,13 @@ $app_name = idx($app_info, 'name', '');
     <![endif]-->
   </head>
   <body>
+    <?php
+      //here is the code to copy to include your topic
+      //----------------------------------------------
+      include_once 'scoopit/include_config.php';
+      
+      include_once 'scoopit/include_topic.php';
+    ?>
     <div id="fb-root"></div>
     <script type="text/javascript">
       window.fbAsyncInit = function() {
