@@ -19,7 +19,7 @@
                     ?>
                   </td>
                   <td class="previous">
-                    <img src="resources/img/paginator/previous.png" alt="" />
+                    <img src="images/paginator/previous.png" alt="" />
                   </td>
                   <?php if($page > 4) { ?>
                     <td class="page"><a href="?page=1">1</a></td>
@@ -43,7 +43,7 @@
 				            <td class="page"><a href="?page=<?php echo $pageCount ?>"><?php echo $pageCount ?></a></td>
                   <?php } ?>
                   <td class="next">
-                    <img src="resources/img/paginator/next.png" alt="" />
+                    <img src="images/paginator/next.png" alt="" />
                   </td>
                   <td class="previousNext">
                     <?php

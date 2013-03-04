@@ -126,9 +126,5 @@ $app_name = idx($app_info, 'name', '');
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-
-    
-    <h1>HelloWorld!</h1>
-
   </body>
 </html>

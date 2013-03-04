@@ -108,7 +108,7 @@
 	            <div class="scoopitPowered">
 	            	<center>
 	            		<a href="http://www.scoop.it">
-	            			<img src="resources/img/poweredbyscoopit_35_transp-1.png"></img>
+	            			<img src="images/poweredbyscoopit_35_transp-1.png"></img>
 	            		</a>
 	            	</center>
 	            </div>
