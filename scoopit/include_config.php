@@ -2,8 +2,8 @@
 
 	/* *********************************** OAUTH CONFIGURATION ********************************* */
 	$localUrl = "https://secure-eyrie-1038.herokuapp.com/";
-	$consumerKey = "";
-	$consumerSecret = "";
+	$consumerKey = "mipimworld|fbHpL8ek1f6SzJLg5kV-C7poHsSimtX2nZ2H3Ak3mco";
+	$consumerSecret = "32kmA4X2MUBX@DYnEzUiFyemgpG6Zk5bcNTrAidR5IF1zZpMOF";
 	
 	/* *********************************** TYPE CONFIGURATION ********************************** */
 	
