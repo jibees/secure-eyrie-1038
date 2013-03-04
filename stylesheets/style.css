@@ -1,4 +1,12 @@
 @CHARSET "UTF-8";
+#main_title {
+background: url("http://blog.mipimworld.com/wp-content/themes/mipim-qa/images/headers/logo-mipimworldblog-2012.png") no-repeat scroll 0 0 #352a3c;
+height: 150px;
+width: 770px;
+position: relative;
+
+}
+
 #scit_viewbox a {
 color: #8921B3;
 text-decoration: none;
