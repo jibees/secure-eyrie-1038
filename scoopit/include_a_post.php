@@ -84,6 +84,7 @@ if ($whiteLabel) {
             <td class="actionsBar-left">
                 <div class="clear">
                   <?php if(isset($post->source)) ?>
+                  <?php print_r($post->source) ?>
                     <div class="postSource">
                       Source : 
                       <a target="_blank" href="">
