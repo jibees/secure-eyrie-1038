@@ -55,9 +55,6 @@ $app_name = idx($app_info, 'name', '');
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 
     <title><?php echo he($app_name); ?></title>
-    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
-    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
-
     <!--[if IEMobile]>
     <link rel="stylesheet" href="mobile.css" media="screen" type="text/css"  />
     <![endif]-->
