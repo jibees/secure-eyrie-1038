@@ -1,6 +1,6 @@
 
-    <link href="stylesheet/reset.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="stylesheet/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="all" />
 	<?php 
 		//files to include
 		include_once 'Scoopit-PHP/ScoopIt.php';
