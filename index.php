@@ -85,15 +85,18 @@ $app_name = idx($app_info, 'name', '');
     <![endif]-->
   </head>
   <body>
+    <a href="http://blog.mipimworld.com/" title="MIPIM-World Blog" rel="home">
+      <h1 id="main_title">
+       
+      </h1>
+    </a>
     <?php
       //here is the code to copy to include your topic
       //----------------------------------------------
       include_once 'scoopit/include_config.php';
       include_once 'scoopit/include_topic.php';
     ?>
-    <h1 id="main_title">
-      <a href="http://blog.mipimworld.com/" title="MIPIM-World Blog" rel="home"><span>MIPIM-World Blog</span></a>
-    </h1>
+    
     <div id="fb-root"></div>
     <script type="text/javascript">
       window.fbAsyncInit = function() {
