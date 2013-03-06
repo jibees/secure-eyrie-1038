@@ -172,9 +172,9 @@ margin-bottom:0px;
 padding-bottom: 10px;
 }
 /* STYLE FOR IMAGE */
-#scit_viewbox .onePost .postView .image img {
+#scit_viewbox .onePost .postView .image img, #scit_viewbox .onePost .postView .image object {
 height: auto;
-max-height: 350px
+max-height: 350px;
 max-width: 350px;
 width: auto;
 }
