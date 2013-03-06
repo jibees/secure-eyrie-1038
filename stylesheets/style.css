@@ -155,7 +155,7 @@ color: #4B4B4B;
 text-decoration: underline;
 font-size: 22px;
 }
-#scit_viewbox .onePost .postView .htmlFragment object, #scit_viewbox .onePost .postView .htmlFragment embed {
+#scit_viewbox .onePost .postView .htmlFragment object, #scit_viewbox .onePost .postView .htmlFragment embed, #scit_viewbox .onePost .postView .htmlFragment iframe {
 max-width: 350px
 max-height: 350px;
 }
@@ -172,7 +172,7 @@ margin-bottom:0px;
 padding-bottom: 10px;
 }
 /* STYLE FOR IMAGE */
-#scit_viewbox .onePost .postView .image img, #scit_viewbox .onePost .postView .image object {
+#scit_viewbox .onePost .postView .image img {
 height: auto;
 max-height: 350px;
 max-width: 350px;
