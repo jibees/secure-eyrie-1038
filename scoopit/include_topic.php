@@ -1,6 +1,8 @@
 
     <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="all" />
     <link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="all" />
+
+    <script type="text/javascript" src="/javascript/scoop.js"></script>
 	<?php 
 		//files to include
 		include_once 'Scoopit-PHP/ScoopIt.php';
